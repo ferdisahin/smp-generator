@@ -6,7 +6,7 @@ Currently only available for twitter. I will prepare it for other social network
 - TailwindCSS
 - Htm2Canvas
 
-Upcoming Features:
+**Upcoming Features:**
 
 - Instagram Post
 - Facebook Post
