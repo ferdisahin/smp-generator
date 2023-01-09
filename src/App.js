@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import { useRef, useState } from "react";
 import Input from "./components/Input";
 import Textarea from "./components/Textarea";
 import Tweet from "./components/Tweet";
