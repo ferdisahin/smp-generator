@@ -1,6 +1,4 @@
-import { useReducer, useRef, useState } from "react";
-import Input from "./components/Input";
-import Textarea from "./components/Textarea";
+import { useRef, useState } from "react";
 import Tweet from "./components/Tweet";
 
 import html2canvas from "html2canvas";
