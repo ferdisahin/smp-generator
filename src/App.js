@@ -49,8 +49,8 @@ function App() {
 
 
 	return (
-		<div className="flex h-full">
-			<div className="bg-slate-900 w-96 flex flex-col p-10 items-start">
+		<div className="lg:flex h-full">
+			<div className="bg-slate-900 lg:w-96 flex flex-col p-5 md:p-10 items-start">
 				<h1 className="text-white font-bold text-xl relative inline-block">Tweet Generator <span className="absolute -top-4 right-0 text-xs bg-red-500 text-white font-normal px-2 rounded">beta</span></h1>
 
 				<form className="mt-10 w-full" onSubmit={handleSubmit}>
@@ -63,8 +63,8 @@ function App() {
 				</form>
 			</div>
 
-			<div className="flex-1 flex flex-col h-full w-full">
-				<div className="flex justify-center items-center flex-1">
+			<div className="lg:flex-1 flex flex-col lg:h-full w-full my-5 lg:my-0 lg:mx-5">
+				<div className="flex justify-center items-center flex-1 px-5 lg:px-0">
 					<Tweet username={username} fullname={fullname} tweet={tweet} like={like} avatar={avatar} ref={tweetRef} />
 				</div>
 
